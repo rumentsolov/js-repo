@@ -5,10 +5,11 @@ const express = require("express");
 const app = express();
 
 const https = require("http"); // SSL is still unknown for me
+import { urlW } from "./links.js";
 
 app.get("/",function(req,res){
 
-    const weatherUrl = "http://api.openweathermap.org/data/2.5/forecast?id=524901&appid=f6b0cb5b903bf06fe77b47d1818b6ad2";
+    var weatherUrl = urlW;
 
     https.get(weatherUrl, function(response){
         console.log(response);
