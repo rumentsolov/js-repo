@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "some JS play",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/rumentsolov/js-repo/issues"
   },
-  "homepage": "https://github.com/rumentsolov/js-repo#readme"
+  "homepage": "https://github.com/rumentsolov/js-repo#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
