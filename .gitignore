@@ -1,2 +1,2 @@
 $ cat .gitignore
-js/links.js
+/js/links.js
