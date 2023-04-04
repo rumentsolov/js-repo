@@ -1,0 +1,38 @@
+#myVideo {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  }
+  
+ .myBtn{
+    background: transparent;
+  }
+
+  .container{
+    background: transparent;
+  }
+
+
+  
+  .viewport-header {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    text-align: top;
+    display: flex;
+    align-items: top;
+    justify-content: left;
+    color: grey;
+    font-family: 'Oswald', sans-serif;
+    border-color: white ;
+  }
+
+  .nav-item{
+    color: grey;
+  }
